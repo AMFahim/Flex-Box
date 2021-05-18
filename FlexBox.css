@@ -1,8 +1,21 @@
-.item{
-  height: 100px;
-  width: 100px;
+/* for flex box flow */
+ .item{
+  height: 40px;
+  width: 40px;
   background-color: rgb(192, 50, 205);
   margin: 20px;
   text-align: center;
+  color: white;
+  padding: 50px;
 }
+/*.container{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+} */
+
+
 
