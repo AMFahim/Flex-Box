@@ -1,5 +1,5 @@
 /* for flex box flow */
- .item{
+/* .item{
   height: 40px;
   width: 40px;
   background-color: rgb(192, 50, 205);
@@ -8,7 +8,7 @@
   color: white;
   padding: 50px;
 }
-/*.container{
+.container{
   display: flex;
   flex-direction: row-reverse;
   flex-direction: column;
@@ -18,4 +18,69 @@
 } */
 
 
+/* for alignment */
+.one{
+  height: 40px;
+  width: 40px;
+  background-color: rgb(192, 50, 205);
+  margin: 20px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+.two{
+  height: 30px;
+  width: 60px;
+  background-color: rgb(192, 50, 205);
+  margin: 20px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.three{
+  height: 60px;
+  width: 30px;
+  background-color: rgb(192, 50, 205);
+  margin: 20px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+.four{
+  height: 40px;
+  width: 40px;
+  background-color: rgb(192, 50, 205);
+  margin: 20px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+.five{
+  height: 40px;
+  width: 100px;
+  background-color: rgb(192, 50, 205);
+  margin: 20px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.six{
+  height: 40px;
+  width: 40px;
+  background-color: rgb(192, 50, 205);
+  margin: 20px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+/* Main axis*/
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
 
